@@ -5,12 +5,24 @@
 
 .container {
     margin: auto;
-    width: 50%;
+    width: 40%;
     height: auto;
     border: 3px solid black;
     border-radius: 1rem;
     font-family: 'Dancing Script', cursive;
     background-color: #E24E42;
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: auto;
+    }
 }
 
 .head-section {
