@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&family=Rubik+Distressed&display=swap');
+* {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 1rem;
+    ;
+    font-family: 'Dancing Script', cursive;
+    background-color: #E24E42;
+}
+
+.head-section {
+    height: 80px;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.head-section h2 {
+    background-color: #E9B000;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 3px ridge black;
+    border-radius: 0.5rem;
+}
+
+.mid-section {
+    width: 80%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.mid-section h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.mid-section input {
+    display: block;
+    width: 95%;
+    height: 55px;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.mid-section button {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    font-family: inherit;
+    font-size: x-large;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+#message {
+    margin: auto;
+    width: 95%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000;
+}
+
+.note-table {
+    border: 1px solid white;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: #E86E80;
+}
+
+.note-table tr {
+    border: 1px solid white;
+}
+
+.note-table td,
+th {
+    border: 1px solid white;
+    width: 50px;
+}
+
+.note-table th {
+    font-size: large;
+    font-weight: 600;
+}
+
+.note-table td {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+}
